@@ -4,4 +4,9 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-winit = "0.30.13"
+wayland-client = "0.31.15"
+wayland-protocols = { version = "0.32.13", features = ["client"] }
+xkbcommon-rs = { version = "0.1.2", features = ["client"] }
+parley = "0.12.0"
+vello_cpu = "0.3.0"
+tempfile = "3"
